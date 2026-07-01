@@ -51,11 +51,11 @@ Open To: AI Engineer · Machine Learning Engineer · Forward Deployed Engineer r
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,vite&theme=dark" />
 
 **Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=django,sqlite,supabase,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=django,fastapi,nodejs,sqlite,supabase,postgres&theme=dark" />
 
 **Cloud, DevOps & Tooling**
 
@@ -93,7 +93,7 @@ AI-powered voice receptionist that automates patient inquiries, appointment book
 | **Performance** | Real-time speech-to-response pipeline with tool-calling for live appointment data |
 | **Security** | Environment-based secret management, CORS-restricted API access |
 | **Impact** | Automates patient booking/rescheduling workflows, reducing manual front-desk workload |
-| **Repository** | *Private — in progress* |
+| **Repository** | [github.com/akilnasim17/schelles-voice-receptionist](https://github.com/akilnasim17/schelles-voice-receptionist) |
 
 Designed the system end-to-end: session management, rate limiting, a Groq-backed conversational engine, and an MCP server exposing clinic tools (`list_doctors`, `check_availability`, `book_appointment`, `cancel_appointment`, `lookup_appointment`) so the LLM can take real actions instead of just generating text.
 
@@ -131,8 +131,59 @@ Schelles is an AI-first venture delivering cutting-edge AI solutions, cloud-base
 | **Performance** | Static, fully client-rendered site |
 | **Security** | Standard static-site hosting |
 | **Impact** | Public front door for the Schelles venture and its AI/cloud/IT offerings |
-| **Repository** | *Private* |
+| **Repository** | [github.com/akilnasim17/schelles-website](https://github.com/akilnasim17/schelles-website) |
 | **Live Site** | [schelles.in](https://schelles.in/) |
+
+</details>
+
+<details>
+<summary><b>📈 AI Sales & Inventory Prediction Platform</b></summary>
+<br/>
+
+A FastAPI + React platform for demand forecasting, inventory prediction, sales-route analysis, and salesman performance scoring — built for enterprise sales operations.
+
+| | |
+|---|---|
+| **Stack** | Python, FastAPI, SQL, JWT Auth, React, Vite |
+| **Scale** | Multi-tenant backend covering forecasting, inventory, purchase orders, and route analytics |
+| **Performance** | Dedicated ML modules for sales forecasting, inventory prediction, and root-cause analysis |
+| **Security** | JWT-based authentication, tenant-scoped data access |
+| **Impact** | Gives sales teams forward-looking demand, inventory, and route recommendations instead of reactive reporting |
+| **Repository** | [github.com/akilnasim17/ai-sales-prediction](https://github.com/akilnasim17/ai-sales-prediction) |
+
+</details>
+
+<details>
+<summary><b>💬 Social Media Automations (WhatsApp / Instagram)</b></summary>
+<br/>
+
+An AI-driven automation platform for handling WhatsApp and Instagram conversations, lead capture, and analytics for businesses.
+
+| | |
+|---|---|
+| **Stack** | Python (FastAPI), React, Docker, WhatsApp & Instagram APIs |
+| **Scale** | Webhook-driven conversation handling with lead and analytics tracking |
+| **Performance** | Containerized backend/frontend via Docker Compose |
+| **Security** | Environment-based credential management for third-party API integrations |
+| **Impact** | Automates conversational lead capture across two major messaging channels |
+| **Repository** | [github.com/akilnasim17/social-media-automations](https://github.com/akilnasim17/social-media-automations) |
+
+</details>
+
+<details>
+<summary><b>🎫 NudgeDesk — AI-Powered Helpdesk</b></summary>
+<br/>
+
+A helpdesk platform that uses an LLM to categorize incoming tickets, draft replies, and surface similar past tickets via semantic search.
+
+| | |
+|---|---|
+| **Stack** | Python, FastAPI, SQLModel, Groq (LLM), model2vec (embeddings) |
+| **Scale** | Ticket queue with agent workflows, knowledge base, and analytics |
+| **Performance** | Provider-agnostic LLM layer — swappable between Groq/other providers via config |
+| **Security** | Session-based auth via `itsdangerous`, environment-based secrets |
+| **Impact** | Cuts manual ticket triage by auto-categorizing tickets and drafting first-pass replies |
+| **Repository** | [github.com/akilnasim17/nudgedesk](https://github.com/akilnasim17/nudgedesk) |
 
 </details>
 
