@@ -171,7 +171,7 @@ An AI-driven automation platform for handling WhatsApp and Instagram conversatio
 </details>
 
 <details>
-<summary><b>🎫 NudgeDesk — AI-Powered Helpdesk</b></summary>
+<summary><b>🎫 AI-Powered Ticket Management System</b></summary>
 <br/>
 
 A helpdesk platform that uses an LLM to categorize incoming tickets, draft replies, and surface similar past tickets via semantic search.
@@ -183,7 +183,7 @@ A helpdesk platform that uses an LLM to categorize incoming tickets, draft repli
 | **Performance** | Provider-agnostic LLM layer — swappable between Groq/other providers via config |
 | **Security** | Session-based auth via `itsdangerous`, environment-based secrets |
 | **Impact** | Cuts manual ticket triage by auto-categorizing tickets and drafting first-pass replies |
-| **Repository** | [github.com/akilnasim17/nudgedesk](https://github.com/akilnasim17/nudgedesk) |
+| **Repository** | [github.com/akilnasim17/ai-powered-ticket-management-system](https://github.com/akilnasim17/ai-powered-ticket-management-system) |
 
 </details>
 
